@@ -1,6 +1,6 @@
 {
   "name": "@saulsolorzano/apollo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "\"Deploy and watch scripts for Shopify'",
   "main": "index.js",
   "bin": {
