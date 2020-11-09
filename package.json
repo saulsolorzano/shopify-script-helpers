@@ -4,7 +4,8 @@
   "description": "\"Deploy and watch scripts for Shopify'",
   "main": "index.js",
   "bin": {
-    "apollo-up": "bin/deploy.js"
+    "apollo-deploy": "bin/deploy.js",
+    "apollo-watch": "bin/watch.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,14 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/saulsolorzano/apollo.git"
   },
-  "keywords": [
-    "deploy",
-    "shopify"
-  ],
   "author": "Saúl Solórzano",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/saulsolorzano/apollo/issues"
   },
-  "homepage": "https://github.com/saulsolorzano/apollo#readme"
+  "homepage": "https://github.com/saulsolorzano/apollo#readme",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
 }
