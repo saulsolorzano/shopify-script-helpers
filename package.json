@@ -1,0 +1,26 @@
+{
+  "name": "@saulsolorzano/apollo",
+  "version": "1.0.0",
+  "description": "\"Deploy and watch scripts for Shopify'",
+  "main": "index.js",
+  "bin": {
+    "apollo-up": "bin/deploy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulsolorzano/apollo.git"
+  },
+  "keywords": [
+    "deploy",
+    "shopify"
+  ],
+  "author": "Saúl Solórzano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saulsolorzano/apollo/issues"
+  },
+  "homepage": "https://github.com/saulsolorzano/apollo#readme"
+}
