@@ -9,3 +9,5 @@ You need to add the following scripts to your `package.json`
 	"deploy": "apollo-deploy"
 },
 ```
+
+This package needs `ttab` installed. Run `npm install ttab -g`.
