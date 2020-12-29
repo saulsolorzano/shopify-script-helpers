@@ -1,12 +1,12 @@
 {
   "name": "@saulsolorzano/shopify-script-helpers",
-  "version": "1.0.5",
-  "description": "\"Deploy and watch scripts for Shopify'",
+  "version": "1.0.0",
+  "description": "Deploy and watch scripts for Shopify",
   "main": "index.js",
   "bin": {
-    "script-helpers-deploy": "bin/deploy.js",
-    "script-helpers-watch": "bin/watch.js"
-  },
+	  "shopify-deploy": "bin/deploy.js",
+	  "shopify-watch": "bin/watch.js"
+	},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,13 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/saulsolorzano/shopify-script-helpers.git"
   },
+  "keywords": [
+    "shopify",
+    "gulp"
+  ],
   "author": "Saúl Solórzano",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/saulsolorzano/shopify-script-helpers/issues"
   },
-  "homepage": "https://github.com/saulsolorzano/shopify-script-helpers#readme",
-  "dependencies": {
-    "shelljs": "^0.8.4"
-  }
+  "homepage": "https://github.com/saulsolorzano/shopify-script-helpers#readme"
 }
