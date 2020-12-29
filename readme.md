@@ -5,8 +5,8 @@ You need to add the following scripts to your `package.json`
 
 ```json
 "scripts": {
-	"watch": "script-helpers-watch",
-	"deploy": "script-helpers-deploy"
+    "watch": "script-helpers-watch",
+    "deploy": "script-helpers-deploy"
 },
 ```
 
