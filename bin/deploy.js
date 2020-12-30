@@ -1,10 +1,10 @@
 #! /usr/bin/env node
-const shell 		= require("shelljs");
+const shell 		= require('shelljs');
 const theme			= process.argv.splice(2, process.argv.length - 2)[0];
 console.log('\x1b[34m%s\x1b[0m', `======================================`);
 console.log('\x1b[34m%s\x1b[0m', `Compilando para producción del tema ${theme}`);
 console.log('\x1b[34m%s\x1b[0m', `======================================`);
-shell.exec("gulp prod");
+shell.exec('gulp production');
 console.log('\x1b[34m%s\x1b[0m', `======================================`);
 console.log('\x1b[34m%s\x1b[0m', 'Archivos compilados ✅ \nEmpezando a subir 🚀')
 console.log('\x1b[34m%s\x1b[0m', `======================================`);
