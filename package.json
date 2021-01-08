@@ -4,9 +4,9 @@
   "description": "Deploy and watch scripts for Shopify",
   "main": "index.js",
   "bin": {
-	  "shopify-deploy": "bin/deploy.js",
-	  "shopify-watch": "bin/watch.js"
-	},
+    "shopify-deploy": "bin/deploy.js",
+    "shopify-watch": "bin/watch.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,37 @@
   "bugs": {
     "url": "https://github.com/saulsolorzano/shopify-script-helpers/issues"
   },
-  "homepage": "https://github.com/saulsolorzano/shopify-script-helpers#readme"
+  "homepage": "https://github.com/saulsolorzano/shopify-script-helpers#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.2.1",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.13",
+    "browserify": "^17.0.0",
+    "event-stream": "^4.0.1",
+    "glob": "^7.1.6",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csslint": "^1.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-uglify": "^3.0.2",
+    "minimist": "^1.2.5",
+    "node-sass": "^5.0.0",
+    "postcss-reporter": "^7.0.2",
+    "postcss-scss": "^3.0.4",
+    "shelljs": "^0.8.4",
+    "stylelint": "^13.8.0",
+    "stylelint-scss": "^3.18.0",
+    "through2": "^4.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "yaml": "^1.10.0"
+  }
 }
