@@ -6,7 +6,7 @@ This package is meant to provide a development flow for working locally with Sho
 You have to install all the dependencies yourself using.
 
 ```shell 
-npm install --save-dev gulp node-sass gulp-sass gulp-postcss gulp-uglify stylelint stylelint-scss gulp-stylelint gulp-eslint gulp-rename autoprefixer through2 browserify vinyl-source-stream babelify vinyl-buffer browser-sync yaml glob event-stream minimist @babel/core @babel/preset-env
+npm install --save-dev gulp node-sass gulp-sass gulp-postcss gulp-uglify stylelint stylelint-scss gulp-stylelint gulp-eslint gulp-rename autoprefixer through2 browserify vinyl-source-stream babelify vinyl-buffer browser-sync yaml glob event-stream minimist @babel/core @babel/preset-env @shopify/themekit
 ```
 And then you need to add the following scripts to your `package.json`
 
