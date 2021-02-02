@@ -1,6 +1,6 @@
 {
   "name": "@saulsolorzano/shopify-script-helpers",
-  "version": "2.0.0",
+  "version": "0.0.1",
   "description": "Deploy and watch scripts for Shopify",
   "bin": {
     "shopify-deploy": "bin/deploy.js",
