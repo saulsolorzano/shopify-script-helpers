@@ -132,15 +132,6 @@ function js(done) {
 	});
 	done();
 }
-
-function deployToShopify(cb) {
-	const shopifyTheme = process.argv[2];
-	themeKit.command('deploy', {
-		allowLive: true,
-		env: shopifyTheme
-	});
-	cb();
-}
 function watch(cb) {
 	const config = readConfig();
 	const shopifyTheme = process.argv[2];
@@ -172,7 +163,6 @@ function watch(cb) {
 	
 	gulp.watch(paths.styles.src, gulp.series(scssLint, scss));
 	gulp.watch(paths.scripts.src, gulp.series(jsLint, js));
-	gulp.watch(paths.liquid.src, gulp.series(deployToShopify));
 	cb();
 }
 gulp.series(jsLint, js, scssLint, scss, watch)();
