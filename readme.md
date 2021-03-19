@@ -18,7 +18,7 @@ npx install-peerdeps --dev shopify-script-helpers
 ```json
 "scripts": {
     "watch": "shopify-watch",
-		"deploy": "shopify-deploy"
+    "deploy": "shopify-deploy"
 },
 ```
 
@@ -76,7 +76,7 @@ npx install-peerdeps --dev shopify-script-helpers
 ```json
 "scripts": {
     "watch": "shopify-watch",
-		"deploy": "shopify-deploy"
+    "deploy": "shopify-deploy"
 },
 ```
 
